@@ -2,15 +2,15 @@ console.log(document.title);
 
 //1
 
-var etiqueta = document.createElement("h2");
-var cont = document.createTextNode("Generasión 1 Pokimon");
-etiqueta.appendChild(cont);
-document.body.appendChild(etiqueta);
+//var etiqueta = document.createElement("h2");
+//var cont = document.createTextNode("Generasión 1 Pokimon");
+//etiqueta.appendChild(cont);
+//document.body.appendChild(etiqueta);
 
-var eliminar = document.getElementById("gen-1");
-eliminar.removeChild(document.getElementById("gen-1").lastChild);
-document.getElementById("gen-1").appendChild(etiqueta);
-
+//var eliminar = document.getElementById("gen-1");
+//eliminar.removeChild(document.getElementById("gen-1").lastChild);
+//document.getElementById("gen-1").appendChild(etiqueta);
+document.querySelector("#gen-1").innerHTML = "Generasión 1 Pokimon"
 //2
 
 document.querySelector(".infocard-list").style.backgroundColor = "red"
