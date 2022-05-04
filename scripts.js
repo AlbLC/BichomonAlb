@@ -26,7 +26,7 @@ var urlDomain = document.domain
 console.log(urlDomain)
 
 //5
-var imag = document.getElementsByClassName("img-fixed")
+var imag = document.querySelectorAll("img-fixed")
 console.log(imag.length)
 
 //6
